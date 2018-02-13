@@ -24,7 +24,6 @@ def merge(a, b):
 
 # Code for merge sort
 def mergeSort(alist):
-    """ Function to sort an array using merge sort algorithm """
     if len(alist) <= 1:
         return alist
     else:
